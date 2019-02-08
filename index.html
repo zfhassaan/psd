@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  <link href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css' rel='stylesheet'/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<section id="header">
+	<div class="container">
+
+	      <!-- Static navbar -->
+	      <div class="navbar navbar-default" role="navigation">
+	        <div class="container-fluid">
+	          <div class="navbar-header">
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="#" onclick="openNav()"><img src="assets/images/menu.png"></a>
+	          </div>
+	          <div class="navbar-collapse collapse">
+	            <ul class="nav navbar-nav">
+
+	            	<li class="logo-navbar-brand"><a href="#"><img src="assets/images/logo.png"></a></li>
+	              <!-- <li class="active"><a href="#">Link</a></li>
+	              <li><a href="#">Link</a></li>
+	              <li><a href="#">Link</a></li> -->
+	              <!-- <li class="dropdown">
+	                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+	                <ul class="dropdown-menu">
+	                  <li><a href="#">Action</a></li>
+	                  <li><a href="#">Another action</a></li>
+	                  <li><a href="#">Something else here</a></li>
+	                  <li class="divider"></li>
+	                  <li class="dropdown-header">Nav header</li>
+	                  <li><a href="#">Separated link</a></li>
+	                  <li><a href="#">One more separated link</a></li>
+	                </ul>
+	              </li> -->
+	            </ul>
+	            <ul class="nav navbar-nav navbar-right">
+	            	<li class="shopping-cart"><span class="lnr lnr-cart"></span></li>
+	             <!--  <li class="active"><a href="./">Default</a></li>
+	              <li><a href="../navbar-static-top/">Static top</a></li>
+	              <li><a href="../navbar-fixed-top/">Fixed top</a></li> -->
+	            </ul>
+	          </div><!--/.nav-collapse -->
+	        </div><!--/.container-fluid -->
+	      </div>
+	</div>
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <img class="product-slider" src="assets/images/product.png" alt="..." style="width: 39.4%;height: 65.8%;">
+
+      <div class="carousel-caption">
+      	
+      	    <h1 class="heading-slider">Lifting <br/>Mascara</h1>
+    	    <p class="caption-slider">thickness, strengthen & <br/>extend eyelashes</p>
+    		<p class="credits"> Photo by Hossem on unsplash </p>
+        <button type="button" class="btn btn-default get-it">Get it</button>
+        <button type="button" class="btn btn-default more">More</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="product-slider" src="assets/images/product.png" alt="..." style="width: 39.4%;height: 65.8%;">
+      <div class="carousel-caption">
+      	
+      	    <h1 class="heading-slider">Lifting <br/>Mascaraaa</h1>
+    	    <p class="caption-slider">thickness, strengthen & <br/>extend eyelashes</p>
+    	
+        <button type="button" class="btn btn-default get-it">Get it</button>
+        <button type="button" class="btn btn-default more">More</button>
+      </div>
+    </div>
+   
+  </div>
+  <span class="control-buttons"><a class="left" href="#carousel-example-generic" role="button" data-slide="prev" style="">  <button type="button" class="slider-left"><i class="fas fa-angle-left"></i></button></a>
+  <a class="right" href="#carousel-example-generic" role="button" data-slide="next" >  <button type="button" class="slider-right"><i class="fas fa-angle-right"></i></button></a></span>
+</div>
+</section>
+
+<script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>
+
+
