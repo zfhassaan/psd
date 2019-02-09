@@ -1,5 +1,5 @@
 body{
-
+  overflow: hidden;
 }
 span.lnr.lnr-cart {
   color: black;
